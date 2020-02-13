@@ -7,6 +7,7 @@ data "aws_region" "current" {}
 data "aws_availability_zones" "available" {}
 
 variable "access_key" { }
+variable "secret_key" { }
 variable "region" { }
 variable "path_to_ssh_keys" { }
 variable "name_of_ssh_key" { }

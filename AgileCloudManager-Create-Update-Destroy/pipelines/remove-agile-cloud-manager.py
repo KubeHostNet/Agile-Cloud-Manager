@@ -14,7 +14,7 @@ print("path_to_call_to_acm_module is: "+path_to_call_to_acm_module)
 ###############################################################################
 ### Remove the Agile Cloud Manager Host Network
 ###############################################################################
-ndf.removeAgileCloudManagerHostNetwork( 'pipeline-acm-network-destroy.py', path_to_call_to_acm_module)
+ndf.removeAgileCloudManagerHostNetwork( 'python pipeline-acm-network-destroy.py', path_to_call_to_acm_module)
 print("                                  ")
 print("  **** Finished Removing Agile Cloud Manager Host Network. ****")
 print("                                  ")

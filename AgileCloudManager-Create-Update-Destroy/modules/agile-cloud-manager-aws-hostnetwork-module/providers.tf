@@ -5,6 +5,7 @@
 provider "aws" {
   region     = var.region
   access_key = var.access_key
+  secret_key = var.secret_key
 }
 
 # Not required: currently used in conjuction with using icanhazip.com to determine local workstation external IP

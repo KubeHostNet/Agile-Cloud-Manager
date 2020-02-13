@@ -5,7 +5,7 @@
 #STEP ZERO: Set the variables
 ########################################################################################################################
 #Note: $acmDirPath should become the directory into which we downloaded the AgileCloudManager (this will have top level subfolders modules, calls-to-modules, and pipelines)
-$acmDirPath = '<Full-Path-Of-Directory-Into-Which-You-Cloned-AgileCloudManager\AgileCloudManager-Create-Update-Destroy>'
+$acmDirPath = 'C:\projects\KubeHostNet\Feb12\Agile-Cloud-Manager\AgileCloudManager-Create-Update-Destroy'
 $driveLetter = "C:\"
 #The following configRootDirPath is the root directory that will be created for all custom config, and which will be destroyed to remove the custom config after.  
 $configRootDirName = "khn-config-aws"

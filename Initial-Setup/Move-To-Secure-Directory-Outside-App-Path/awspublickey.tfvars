@@ -2,3 +2,4 @@
 ## Start at https://github.com/KubeHostNet/  
 
 acm_public_access_key = ""
+acm_secret_access_key = ""

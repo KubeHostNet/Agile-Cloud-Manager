@@ -7,6 +7,7 @@ module "agile-cloud-manager-aws-hostnetwork" {
 
   region = "${var.acm_region}"
   access_key = "${var.acm_public_access_key}"
+  secret_key = "${var.acm_secret_access_key}"
   path_to_ssh_keys = "${var.path_to_ssh_keys}"
   name_of_ssh_key = "${var.name_of_ssh_key}"
   name_of_ssh_key_k8sadmin = "${var.name_of_ssh_key_k8sadmin}"
@@ -15,6 +16,7 @@ module "agile-cloud-manager-aws-hostnetwork" {
 
 variable "acm_region" { }
 variable "acm_public_access_key" { }
+variable "acm_secret_access_key" { }
 variable "path_to_ssh_keys" { }
 variable "name_of_ssh_key" { }
 variable "name_of_ssh_key_k8sadmin" { }
